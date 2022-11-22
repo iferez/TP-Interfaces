@@ -52,13 +52,7 @@
                             <li><a href="reclamos.html"><i class="bi bi-file-text"></i> RECLAMOS</a></li>
                             <li><a href="comerciantes.html"><i class="bi bi-building-add"></i> ADHERIR COMERCIO</a></li>
                             <li><a href="productos.html"><i class="bi bi-basket"></i> LISTAR PRODUCTOS</a></li>
-                            <a class="btn btn-light rounded-pill ms-5 dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">COMERCIOS</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="comerciantes.html">Adherir comercio</a></li>
-                            <li><a class="dropdown-item" href="productos.html">Listar productos</a></li>
-                            <li><a class="dropdown-item" href="comercios.html">Listar comerciantes</a></li>
-                        </ul>
+                            <li><a href="comercios.html"><i class="bi bi-cart-plus"></i> LISTAR COMERCIANTES</a></li>
                         </div>
                     </div>
                     
@@ -90,14 +84,22 @@
                     <a href="tarjeta.html" class="btn btn-light rounded-pill me-2 ">PEDIR MI TARJETA</a>
                     <a href="familiar.html" class="btn btn-light rounded-pill me-2">SUMAR FAMILIAR</a>
                     <a href="reclamos.html" class="btn btn-light rounded-pill me-2 nav-activo">RECLAMOS</a>
-                    <a href="comerciantes.html" class="btn btn-light rounded-pill ms-5">SOY COMERCIANTE</a>
+                    <a class="btn btn-light rounded-pill ms-5 dropdown-toggle" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">COMERCIOS</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="comerciantes.html">Adherir comercio</a></li>
+                        <li><a class="dropdown-item" href="productos.html">Listar productos</a></li>
+                        <li><a class="dropdown-item" href="comercios.html">Listar comerciantes</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
 
         <section class="section-solicitud">
 
-            <img src="img/reclamo.png" alt="Rellenar formulario">
+            <picture class="d-flex justify-content-center">
+                <img src="img/reclamo.png" alt="Rellenar formulario">
+            </picture>
 
             <article>
                 <div class="container my-5">
@@ -133,7 +135,7 @@
                             </div>
 
                             <h4 class="pt-4">Datos del reclamo</h4>
-                            <label class="form-label">Nro de Confirmación</label>
+                            <label class="form-label">Nro de Asociado</label>
                             <input class="form-control" type="text" name="" id=""
                                 placeholder="Nro de gestión de tu tarjeta" required>
 
@@ -146,6 +148,10 @@
                                 <input class="form-check-input" type="radio" name="name" id="" value="option2">
                                 <label class="form-check-label" for="no">No</label>
                             </div>
+
+                            <label class="form-label d-block">Domicilio del comercio</label>
+                            <input class="form-control" type="text" name="" id=""
+                                required>
 
                             <label class="form-label d-block">Descripción del problema</label>
                             <textarea class="form-control-area" id="" rows="5"></textarea>
