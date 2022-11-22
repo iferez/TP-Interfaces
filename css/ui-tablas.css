@@ -95,28 +95,50 @@
   margin-right: 6px;
 }
 
-/* RESPONSIVE */
-@media (min-width: 768px) {
 /* BORDES SEMAFORO CON ESTADOS */
 .borde-pendiente {
+  border-top: 6px solid #70707099 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+.borde-aprobado {
+  border-top: 6px solid #2e7d33 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+.borde-desaprobado {
+  border-top: 6px solid #c62828 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+.borde-observado {
+  border-top: 6px solid #f9a822 !important;
+  border-radius: 6px 0px 0px 6px !important;
+}
+
+/* RESPONSIVE */
+@media (min-width: 998px) {
+/* BORDES SEMAFORO CON ESTADOS */
+.borde-pendiente {
+  border-top: 1px solid #e1e1e1 !important;
   border-left: 6px solid #70707099 !important;
   border-radius: 6px 0px 0px 6px !important;
 }
 .borde-aprobado {
+  border-top: 1px solid #e1e1e1 !important;
   border-left: 6px solid #2e7d33 !important;
   border-radius: 6px 0px 0px 6px !important;
 }
 .borde-desaprobado {
+  border-top: 1px solid #e1e1e1 !important;
   border-left: 6px solid #c62828 !important;
   border-radius: 6px 0px 0px 6px !important;
 }
 .borde-observado {
+  border-top: 1px solid #e1e1e1 !important;
   border-left: 6px solid #f9a822 !important;
   border-radius: 6px 0px 0px 6px !important;
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 998px) {
   .tabla-ministerio thead {
     display: none !important;
   }
@@ -128,7 +150,7 @@
 
   .tabla-ministerio tr td:first-child {
     border-left: none;
-    border-top: 6px solid #37bbed;
+    border-top: 6px solid #D8D8D8;
     border-radius: 6px 6px 0px 0px;
   }
 
@@ -136,7 +158,7 @@
     border: none;
     border-radius: 0px 0px 6px 6px;
     padding: 8px 10px;
-    background-color: #37bbed;
+    background-color: #D8D8D8;
     justify-content: center;
   }
 
