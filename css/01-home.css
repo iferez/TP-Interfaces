@@ -1,0 +1,91 @@
+.banner-carousel {
+  position: relative;
+}
+
+.banner-info {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.banner-info h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #fff;
+  text-shadow: 4px 4px 10px black;
+}
+
+.banner-info h3 {
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 4px 4px 10px black;
+}
+
+.iconos-home {
+  text-align: center;
+}
+
+.iconos-home i {
+  font-size: 76px;
+  font-weight: bold;
+  color: #5d4f8e;
+}
+
+.iconos-text {
+  text-align: center;
+}
+
+.iconos-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.section-tarjeta h1 {
+  color: #5d4f8e;
+  font-weight: 700;
+}
+
+.section-tarjeta h3 {
+  color: #5d4f8e;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  #header-ministerioDesarrollo .userMenu .dropdown i:hover {
+    color: #115f98;
+    transition: 0.3s;
+  }
+
+  .ul-social a {
+    width: 48px;
+    height: 48px;
+    background-color: #099ca1e6;
+    color: #ffffff;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ul-social a i {
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .banner-info h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 4px 4px 10px black;
+  }
+  
+  .banner-info h3 {
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 4px 4px 10px black;
+  }
+
+}

@@ -1,0 +1,155 @@
+header img,
+footer img {
+  max-height: 100px;
+}
+
+/* HEADER */
+#header-ministerioDesarrollo {
+  height: 100px;
+  background: #D8D8D8D9;
+  box-shadow: 0px 1px 5px 2px #6c6c6c46 !important;
+  z-index: 999;
+}
+
+#headerColUno,
+#headerColDos {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+/* USER MENU */
+#header-ministerioDesarrollo .userMenu .dropdown i {
+  font-size: 20px;
+  color: #5d4f8e;
+  padding: 10px 12px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+#header-ministerioDesarrollo .dropdown-menu {
+  background-color: #2393bf;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#header-ministerioDesarrollo .dropdown-menu i {
+  font-size: 16px;
+}
+
+#header-ministerioDesarrollo #datosUsuarioMenu {
+  background-color: #116f98;
+  padding: 6px 14px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#header-ministerioDesarrollo .dropdown-menu hr {
+  color: #ffff;
+  margin: 0px;
+}
+
+#header-ministerioDesarrollo .dropdown-menu li {
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px 20px;
+}
+
+#header-ministerioDesarrollo .dropdown-menu li a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#header-ministerioDesarrollo .dropdown-menu li a:hover {
+  color: #dddddd;
+}
+
+/* FOOTER */
+#footer-ministerioDesarrollo {
+  height: 100px;
+  background: #D8D8D8D9;
+  z-index: 999;
+}
+
+#footerColUno,
+#footerColDos {
+  height: 100px;
+}
+
+#footerColDos {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#footerColDos .infoFooter a {
+  display: block;
+  font-size: 12px;
+  color: #ffff;
+  line-height: 1.8;
+  font-weight: 300;
+}
+ 
+/* OFFCANVAS */
+
+.btn-user {
+  border: none;
+  background-color: #ffff;
+}
+
+.btn-user i{
+  font-size: 18px;
+color: #5d4f8e;
+}
+.btn-close {
+  background-color: #ffff;
+  border-radius: 25px;
+  margin-right: 10px !important;
+}
+.offcanvas {
+  max-width: 70%;
+  background-color: #D8D8D8;
+  color: #ffff;
+}
+
+.offcanvas-header {
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.offcanvas-header h5 {
+  font-weight: bold;
+}
+
+.offcanvas-body a {
+  color: #116f98;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.offcanvas-body li {
+  margin: 20px 0px;
+}
+
+.offcanvas-body p:hover {
+  color: #dddddd;
+}
+
+.offcanvas-body p {
+  margin: 40px 0px;
+}
+
+.offcanvas-body i {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  #header-ministerioDesarrollo .userMenu .dropdown i:hover {
+    color: #115f98;
+    transition: 0.3s;
+  }
+}

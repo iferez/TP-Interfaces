@@ -1,0 +1,59 @@
+
+/* SECTION INICIO */
+#loginInicio {
+    padding-top: 40px;
+    padding-bottom: 140px;
+  }
+  
+  #loginInicio h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  #loginFormulario {
+    border-radius: 8px;
+  }
+  
+  #contenedorForm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  #loginFormulario label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  #loginFormulario #inputPassword {
+    border-radius: 0.5rem 0rem 0rem 0.5rem !important;
+  }
+
+  #loginFormulario #inputPasswordDos {
+    border-radius: 0.5rem 0rem 0rem 0.5rem !important;
+  }
+  
+  #loginFormulario #showPassword {
+    border-radius: 0rem 0.5rem 0.5rem 0rem !important;
+    cursor: pointer;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #loginFormulario #showPassword i {
+    opacity: 60%;
+    font-size: 18px;
+  }
+  
+  #contenedorForm p {
+    font-size: 14px;
+  }
+  
+  #contenedorForm em {
+    font-style: normal;
+    font-weight: 600;
+    color: #1072bb;
+  }
+  

@@ -1,0 +1,12 @@
+.section-solicitud label{
+ margin-top: 16px;
+}
+
+.section-solicitud h4{
+    color: #5d4f8e;
+    border-bottom: 1px solid #5d4f8e;
+   }
+
+   .card-body li{
+    font-size: 12px;
+   }

@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <title>Comercios</title>
+</head>
+
+<body>
+    <header id="header-ministerioDesarrollo">
+        <div class="container">
+            <div class="row">
+                <div id="headerColUno" class="col-6">
+                    <a href="https://lacosta.gob.ar/">
+                        <img src="img/logo.png" class="img-fluid" alt="Logo del Municipio">
+                    </a>
+                </div>
+                <div id="headerColDos" class="col-6 d-flex justify-content-end align-items-center userMenu">
+                    <a href="https://lacosta.gob.ar/" class="d-none d-md-block me-5"
+                        style="color: #5d4f8e; font-weight: 500;" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="Volver al inicio">
+                        <i class="bi bi-arrow-return-left"></i> MUNICIPIO
+                    </a>
+                    
+                    
+                    <button class="btn btn-user rounded-pill me-3 d-lg-none" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="bi bi-list"></i>
+                    </button>
+
+                    <!-- MENU LATERAL -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="pe-2 text-violeta" id="offcanvasRightLabel">Nuestro sitio</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <li><a href="home.html"><i class="bi bi-house"></i> VECINO COSTERO</a></li>
+                            <li><a href="tarjeta.html"><i class="bi bi-credit-card"></i> PEDIR MI TARJETA</a></li>
+                            <li><a href="familiar.html"><i class="bi bi-person-plus"></i> SUMAR FAMILIAR</a></li>
+                            <li><a href="reclamos.html"><i class="bi bi-file-text"></i> RECLAMOS</a></li>
+                            <li><a href="comerciantes.html"><i class="bi bi-building-add"></i> ADHERIR COMERCIO</a></li>
+                            <li><a href="productos.html"><i class="bi bi-basket"></i> LISTAR PRODUCTOS</a></li>
+                            <li><a href="comercios.html"><i class="bi bi-cart-plus"></i> LISTAR COMERCIANTES</a></li>
+                        </div>
+                    </div>
+
+                    <a id="usuarioMenu" class="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li id="datosUsuarioMenu">
+                            <span class="fw-bold"> Juan Perez - </span>
+                            <span> 38666333 </span> <br>
+                            <span> juanperez@gmail.com </span>
+                        </li>
+                        <li><a href="perfil.html"><i class="fa-solid fa-id-card me-3"></i> Mi perfil</a></li>
+                        <hr>
+                        <li><a href="login.html"><i class="fa-solid fa-arrow-right-from-bracket me-3"></i> Cerrar la
+                                sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <nav class="nav-menu d-none d-lg-block">
+            <div class="container">
+                <div>
+                    <a href="home.html" class="btn btn-light rounded-pill me-2">VECINO COSTERO</a>
+                    <a href="tarjeta.html" class="btn btn-light rounded-pill me-2 ">PEDIR MI TARJETA</a>
+                    <a href="familiar.html" class="btn btn-light rounded-pill me-2">SUMAR FAMILIAR</a>
+                    <a href="reclamos.html" class="btn btn-light rounded-pill me-2">RECLAMOS</a>
+                    <a class="btn btn-light rounded-pill ms-5 dropdown-toggle  nav-activo" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">COMERCIOS</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="comerciantes.html">Adherir comercio</a></li>
+                        <li><a class="dropdown-item" href="productos.html">Listar productos</a></li>
+                        <li><a class="dropdown-item" href="comercios.html">Listar comerciantes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container my-5">
+                <h2 class="my-5 text-violeta fw-extrabold">BUSCÁ TU COMERCIO MAS CERCANO</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="img/c6.png" class="card-img-top" alt="Fondo de almacen">
+                            <div class="card-body">
+                                <h5 class="card-title">ALMACÉN</h5>
+                                <ul class="p-0 m-0">
+                                    <li>La carlotta - Lanús  194 - Aguas verdes</li>
+                                    <li>Geo polo  - Rivadavia 1226 - San clemente</li>
+                                    <li>La esquina - Thompson 1925 - San Bernardo</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">Ver listado completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="img/c1.png" class="card-img-top" alt="Fondo de panaderia">
+                            <div class="card-body">
+                                <h5 class="card-title">PANADERIA</h5>
+                                <ul class="p-0 m-0">
+                                    <li>Don flauta - Balcarce 1995 - Mar Del Plata</li>
+                                    <li>Los totora - Algaraz 752 - Costa Del Este</li>
+                                    <li>Vite flor - Dr monte 1425 - Santa Clara</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">Ver listado completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="img/c2.png" class="card-img-top" alt="Fondo de verduleria">
+                            <div class="card-body">
+                                <h5 class="card-title">VERDULERIA</h5>
+                                <ul class="p-0 m-0">
+                                    <li>Don pepito - Siempre viva 154 - Las toninas</li>
+                                    <li>Papita morron  - Barbosa 996 - Costa Del Este</li>
+                                    <li>Al vapor - Perón 2485 - Santa Clara</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">Ver listado completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="img/c3.png" class="card-img-top" alt="Fondo de farmacia">
+                            <div class="card-body">
+                                <h5 class="card-title">FARMACIA</h5>
+                                <ul class="p-0 m-0">
+                                    <li>Dr ahorro - Branden  754 - Lucila del Mar</li>
+                                    <li>Farmacity  - Barbosa 996 - Mar del tuyu</li>
+                                    <li>Central oeste - Perón 2485 - Santa Clara</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">Ver listado completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="img/c4.png" class="card-img-top" alt="Fondo de perumeria">
+                            <div class="card-body">
+                                <h5 class="card-title">PERUMERIA</h5>
+                                <ul class="p-0 m-0">
+                                    <li>Fragantti - Olivos  354 - Mar de Ajo</li>
+                                    <li>Olorez  - Veron 1296 - Mar del tuyu</li>
+                                    <li>Chato praddra - Roque 4485 - Las toninas</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">Ver listado completo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="img/c5.png" class="card-img-top" alt="Fondo de fiambreria">
+                            <div class="card-body">
+                                <h5 class="card-title">FIAMBRERIA</h5>
+                                <ul class="p-0 m-0">
+                                    <li>La de messi - Arieta  3254 - Aguas verdes</li>
+                                    <li>Roman jamon  - Humahuaca 226 - San clemente</li>
+                                    <li>Lo de nacho - Alvarez 925 - Santa clara</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-3">Ver listado completo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <div class="ul-social">
+        <a href="https://www.facebook.com/MuniLaCosta/" target="_blank" data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Ir a Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/munilacosta?lang=es" target="_blank" data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Ir a Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/muni.lacosta/?hl=es-la" target="_blank" data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Ir a Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCwd1cuDJtYlT-1lX2gfE95w" target="_blank" data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Ir a Youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+
+    <footer id="footer-ministerioDesarrollo">
+        <div class="container">
+            <div class="row">
+                <div id="footerColUno" class="col-6">
+                    <a href="https://lacosta.gob.ar/">
+                        <img src="img/logo.png" class="img-fluid" alt="Logo del Municipio">
+                    </a>
+                </div>
+                <div id="footerColDos" class="col-6">
+                    <div class="infoFooter">
+                        <a href=""> Acerca de este sitio </a>
+                        <a href=""> Términos y condiciones </a>
+                        <a href=""> Ministerio </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d741def0c1.js" crossorigin="anonymous"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
